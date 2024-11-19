@@ -46,6 +46,7 @@ document.getElementById("flamesform").addEventListener("submit", (e) => {
     "You Both are Endedup with " + flames;
   document.getElementById("myres").style.color = "lightgreen";
   document.getElementById("myres").style.textShadow = " 0px 0px 16px #CECECE";
+  document.getElementById("flamesform").reset();
 });
 //   for (a = 0; a < str2.length; a++) {
 //     for (b = 0; b < str1.length; b++) {
